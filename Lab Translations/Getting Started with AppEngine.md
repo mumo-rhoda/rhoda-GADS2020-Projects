@@ -62,6 +62,9 @@ Objectives
 
 # Task 4: Disable the application
 
+  ## The easiest way to disable application in App Engine is to use
+           gcloud app versions stop
+           ### or you can either follow the following tasks below.
     ## App Engine offers no option to Undeploy an application. After an application is deployed, it remains deployed, However, you can disable the application, which causes it to no longer be accessible to users. To do this you have to navigate to the cloud shell and then disable the application.
  
             gcloud app open-console
